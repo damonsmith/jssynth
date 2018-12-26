@@ -1,6 +1,33 @@
 jssynth
 =======
 
+Notes on TypeScript conversion:
+
+This version of jssynth has been ported to TypeScript. The project now requires the following tools:
+
+NodeJS environment: use Nodenv (not NVM)
+Build tool: Yarn (not NPM, easiest to install via npm install -g yarn)
+Test tool: Alsatian (run tests with `yarn run unit-tests`)
+
+Dev setup steps:
+================
+
+1. checkout this project and cd into it
+2. Make sure nodenv is installed 
+3. `npm install -g yarn` # Installs yarn globally for current node version
+4. `nodenv rehash` # Tells nodenv to make the new yarn command available
+5. `yarn` # Installs all packages
+6. `yarn unit-tests` # Runs the unit tests
+7. `yarn build` # Builds the project
+8. `yarn package` # Generates a release package
+
+IDE:
+====
+Recommend using Visual Studio Code with "TypeScript TSLint Plugin"
+
+About:
+======
+
 JSSynth is a pure JavaScript library for dealing with sampled and synthesised digital audio.
 
 It comprises a mixer component and an integration layer to output sampled audio via
