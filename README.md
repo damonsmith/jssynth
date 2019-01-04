@@ -1,5 +1,10 @@
-jssynth
+tssynth
 =======
+
+I'm just publishing this as a package called @freehand/tssynth temporarily until gundy gets around to publishing the new version himself.
+
+port from jssynth
+=================
 
 Notes on TypeScript conversion:
 

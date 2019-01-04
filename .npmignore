@@ -1,0 +1,10 @@
+yarn.lock
+.travis.yml
+config.js
+test
+.vscode
+tsconfig.json
+tslint.json
+sauce_labs_capabilities.js
+gulpfile.js
+.node-version
