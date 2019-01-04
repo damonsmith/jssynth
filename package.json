@@ -6,7 +6,7 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"repository": "https://github.com/damonsmith/jssynth/",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"main": "src/index.ts",
 	"scripts": {
 		"unit-tests": "ts-node ./test/runner.ts",
